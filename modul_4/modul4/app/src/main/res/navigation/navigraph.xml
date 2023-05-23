@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigraph"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.modul4.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_portal"
+            app:destination="@id/portal" />
+    </fragment>
+    <fragment
+        android:id="@+id/portal"
+        android:name="com.example.modul4.Portal"
+        android:label="fragment_portal"
+        tools:layout="@layout/fragment_portal" >
+        <action
+            android:id="@+id/action_portal_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+</navigation>
