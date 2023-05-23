@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="Materi"
+        android:id="@+id/main"
+        android:icon="@drawable/baseline_book_24"/>
+    <item android:title="Kuis"
+        android:id="@+id/kuis"
+        android:icon="@drawable/baseline_lightbulb_24"/>
+    <item android:title="Profil"
+        android:id="@+id/profil"
+        android:icon="@drawable/baseline_person_24"/>
+    <item android:title="Setting"
+        android:id="@+id/setting"
+        android:icon="@drawable/baseline_miscellaneous_services_24"/>
+</menu>
